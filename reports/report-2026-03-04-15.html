@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>涅磐纪 AI电商日报 | 小红书特辑</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'xhs-red': '#ff2442',
+            'xhs-pink': '#ff5a7a',
+            'xhs-bg': '#f8f8f8',
+            'xhs-card': '#ffffff',
+            'xhs-text': '#333333',
+            'xhs-subtext': '#999999',
+          },
+          borderRadius: { 'xl': '12px', '2xl': '16px' },
+        },
+      },
+    }
+  </script>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: #f8f8f8;
+      color: #333;
+      -webkit-font-smoothing: antialiased;
+    }
+    .xhs-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+      transition: all 0.2s ease;
+    }
+    .xhs-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    }
+    .xhs-tag {
+      background: #ffe5e5;
+      color: #ff2442;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      display: inline-block;
+    }
+    .note-cover {
+      width: 100%;
+      aspect-ratio: 3/4;
+      object-fit: cover;
+      border-radius: 8px;
+      background: linear-gradient(135deg, #ffe5e5 0%, #fff5f5 100%);
+    }
+    .stat-card {
+      background: linear-gradient(135deg, #ff2442 0%, #ff5a7a 100%);
+      color: white;
+      border-radius: 12px;
+      padding: 16px;
+    }
+    .skeleton {
+      background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+      background-size: 200% 100%;
+      animation: loading 1.5s infinite;
+    }
+    @keyframes loading {
+      0% { background-position: 200% 0; }
+      100% { background-position: -200% 0; }
+    }
+  </style>
+
+    <script>
+      // 覆盖模板中默认的空数据
+      reportData = {
+        meta: {
+          totalNotes: 20,
+          aiCommerce: 6,
+          decorativeArt: 12,
+          exaCount: 23,
+          reportId: '2026030415',
+          generatedAt: '2026-03-04 15:01'
+        },
+        xiaohongshu: [{"id": "6988a9a0000000001b01ff94", "xsec_token": "ABSSuD5vHmGOBjGCH0BbBrOyTFsuskeMlgJBtQXr7Uiew=", "title": "小云雀seed2.0真的太吓人了…", "type": "video", "user": "阿楠的工具库", "likes": "317", "collections": "158", "comments": "31", "cover": "http://sns-webpic-qc.xhscdn.com/202603041500/56d7048a2fd12c462466dd60ae1b394b/1040g2sg31sb2eqqm5mbg5nmq536g8ljregcprsg!nc_n_webp_prv_1", "category": "AI 电商趋势", "region": "china", "query": "AI电商", "source": "小红书"}, {"id": "68776212000000000b01cf2a", "xsec_token": "ABWrcTbUtjXW5rQoVSXEaC9YS244To2KpMuNyVz-6ijSY=", "title": "在X上刷到了一个极为震撼的观点", "type": "normal", "user": "AI座下第一走狗", "likes": "1263", "collections": "911", "comments": "92", "cover": "http://sns-webpic-qc.xhscdn.com/202603041500/14ebaf6b812033b8040cb08a72cc2d78/spectrum/1040g34o31k08md2lig105psmt021o1snduf3dc0!nc_n_webp_prv_1", "category": "AI 电商趋势", "region": "china", "query": "AI电商", "source": "小红书"}, {"id": "67f26365000000001d021f31", "xsec_token": "AB_9I4VPm_MOtBKHRNyhjhggSSHT-HtmSjbW5Pdq_6z58=", "title": "某宝这波操作，是准备搞什么飞机啊😳", "type": "normal", "user": "PS小星球丨收徒", "likes": "29", "collections": "24", "comments": "5", "cover": "http://sns-webpic-qc.xhscdn.com/202603041500/972b2fa86476733bcc56290690fa6a51/1040g00831fucom3mg65g5p5jstapetee8k2vmh0!nc_n_webp_prv_1", "category": "AI 电商趋势", "region": "china", "query": "AI电商", "source": "小红书"}, {"title": "专题：2025电商营销与AI应用发展趋势报告|附260+份 ...", "url": "https://blog.csdn.net/qq_19600291/article/details/149118353", "snippet": "专题：2025电商营销与AI应用发展趋势报告|附260+份报告PDF、原数据表汇总下载-CSDN博客 # 专题：2025电商营销与AI应用发展趋势报告|附260+份报告PDF、原数据表汇总下载 ![]<image_link> [拓端研究室]<web_link>![]<image_link>于2025-07-04 15:58:49发布 ![]<image_link>阅读量1k![]<image_link>![]<image_link>收藏30 ![]<image_link>![]<image_link>点赞数 23 CC 4.0 BY-SA版权 文章标签：[pdf]<web_link> 版权声明", "category": "AI 电商趋势", "region": "china", "query": "AI电商 人工智能 电商应用 案例 2025", "source": "Exa"}, {"title": "Fastdata极数全球电商行业AI应用研究报告2025", "url": "https://www.scribd.com/document/897552467/Fastdata%E6%9E%81%E6%95%B0-%E5%85%A8%E7%90%83%E7%94%B5%E5%95%86%E8%A1%8C%E4%B8%9AAI%E5%BA%94%E7%94%A8%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A2025", "snippet": "[Open navigation menu]<web_link> Close suggestionsSearchSearch enChange Language [Upload]<web_link> Sign in Sign in 0 ratings0% found this document useful (0 votes) 540 views59 pages # Fastdata极数 全球电商行业AI应用研究报告2025 本报告探讨了人工智能在全球电商行业的应用及其革命性影响，强调个性化购物体验、供应链优化和可持续发展。预计到2024年，全球B2C电商销售额将达到6.1万亿美元，中国和美国", "category": "AI 电商趋势", "region": "china", "query": "AI电商 人工智能 电商应用 案例 2025", "source": "Exa"}, {"title": "2025年AI电商新趋势：天星链数据如何用技术改变抖店运营", "url": "https://www.163.com/dy/article/JV59I9B605562KY9.html", "snippet": "2025年AI电商新趋势：天星链数据如何用技术改变抖店运营|ai电商|电商平台_网易订阅 [网易首页]<web_link> [应用]<web_link> - [网易云课堂]<web_link> - [邮箱大师]<web_link> - [网易严选]<web_link> - [网易红彩]<web_link> - [网易公开课]<web_link> - [网易新闻]<web_link> 快速导航 ### 新闻 - [王三三]<web_link> - [国际]<web_link> - [国内]<web_link> ### 体育 - [意甲]<web_link> - [西甲]<web_link> - ", "category": "AI 电商趋势", "region": "china", "query": "AI电商 人工智能 电商应用 案例 2025", "source": "Exa"}, {"id": "69257a8d0000000019024015", "xsec_token": "ABktczk0dyMXXD3iqZC5ODetDIVih6YekfbVfaVAi33lU=", "title": "Nano Banana 作图 你是不是真的懂我啊", "type": "normal", "user": "砂糖来啦", "likes": "2579", "collections": "2403", "comments": "288", "cover": "http://sns-webpic-qc.xhscdn.com/202603041500/19dd66f82d40aeea6a7c0681377c51d0/spectrum/1040g34o31pa99ju4ia105p0ude3kc5dvn60l5g0!nc_n_webp_prv_1", "category": "装饰画与墙艺", "region": "china", "query": "AI绘画", "source": "小红书"}, {"id": "67ff1f48000000001d0085ec", "xsec_token": "ABVBeK0nia8BF-5PUUDjFi1lC-a0IcZjcuK0A7OfL8eIU=", "title": "吐血整理！风格码合集，有码事半功倍", "type": "normal", "user": "翘翘日志", "likes": "838", "collections": "1098", "comments": "19", "cover": "http://sns-webpic-qc.xhscdn.com/202603041500/4e464adea339ea64ace98f76a5cf567a/1040g2sg31gaqr6iqj0d05nl6791g8qqbpg909a0!nc_n_webp_prv_1", "category": "装饰画与墙艺", "region": "china", "query": "AI绘画", "source": "小红书"}, {"id": "693a34b3000000001b033484", "xsec_token": "ABUPUBDokz2QGs_E-yjinbwRSW2NyRFmC0Pir5gNYARoA=", "title": "AI概念设计", "type": "normal", "user": "-Duduu-", "likes": "626", "collections": "433", "comments": "22", "cover": "http://sns-webpic-qc.xhscdn.com/202603041500/346d8981fd478c4fbf927f9503ba4415/1040g2sg31puh33qn4mjg5pjui3q3cvu7k1s0vg8!nc_n_webp_prv_1", "category": "装饰画与墙艺", "region": "china", "query": "AI绘画", "source": "小红书"}, {"id": "698dadbe000000001d024c83", "xsec_token": "ABkE60HBUd2gHr1WhQHuN7F67b5u1HtGI8nZTMRYG2qCs=", "title": "不想家中的挂画烂大街？那考虑便宜的DIY吧", "type": "normal", "user": "老詹的寒舍", "likes": "380", "collections": "524", "comments": "18", "cover": "http://sns-webpic-qc.xhscdn.com/202603041500/31eb2f28d138ca899e03d8854a6421f3/spectrum/1040g34o31sg1868r5a105oe4lpik169jne84pr0!nc_n_webp_prv_1", "category": "装饰画与墙艺", "region": "china", "query": "装饰画", "source": "小红书"}, {"id": "6914a1a80000000007016f27", "xsec_token": "ABXJUdRhhY30pFLukhR-nIUyxhhAMyVqPEri1b5CTSKws=", "title": "新家100个快递📦自搭不网红的挂画组合", "type": "normal", "user": "西瑾只有四斤", "likes": "360", "collections": "273", "comments": "123", "cover": "http://sns-webpic-qc.xhscdn.com/202603041500/8f708e88ad2c7b9a5e839ace1cf3469b/notes_pre_post/1040g3k031opq3unoh06g5o9bmu3g8u03bh689u8!nc_n_webp_prv_1", "category": "装饰画与墙艺", "region": "china", "query": "装饰画", "source": "小红书"}, {"id": "696db808000000001a033850", "xsec_token": "ABJd1aeGVv5wlgHGAAUGO4KXYGH___qwst9H8TB1gr8S8=", "title": "提升幸福感的多巴胺小插画～", "type": "normal", "user": "芝士玉米", "likes": "256", "collections": "128", "comments": "6", "cover": "http://sns-webpic-qc.xhscdn.com/202603041500/a219b552180a6c62edcdbc72bd185a98/notes_pre_post/1040g3k831rgqu8r0nu005o5g9png9dob06ufk18!nc_n_webp_prv_1", "category": "装饰画与墙艺", "region": "china", "query": "装饰画", "source": "小红书"}, {"id": "698dadbe000000001d024c83", "xsec_token": "ABkE60HBUd2gHr1WhQHuN7F67b5u1HtGI8nZTMRYG2qCs=", "title": "不想家中的挂画烂大街？那考虑便宜的DIY吧", "type": "normal", "user": "老詹的寒舍", "likes": "380", "collections": "524", "comments": "18", "cover": "http://sns-webpic-qc.xhscdn.com/202603041500/31eb2f28d138ca899e03d8854a6421f3/spectrum/1040g34o31sg1868r5a105oe4lpik169jne84pr0!nc_n_webp_prv_1", "category": "装饰画与墙艺", "region": "china", "query": "画框", "source": "小红书"}, {"id": "684c1f800000000021006e66", "xsec_token": "ABFC_J6FroC1oClv6n2t9fO1Z78Pzgg8-fSa36zOYHV44=", "title": "Kickstarter爆款案例｜出海选品，商品定义", "type": "normal", "user": "Leadoversea", "likes": "58", "collections": "55", "comments": "5", "cover": "http://sns-webpic-qc.xhscdn.com/202603041500/18d6840ec3b30c2a99651d102f1a5f95/spectrum/1040g0k031im0ufm90o005pnd4l4nc8kbuca8v28!nc_n_webp_prv_1", "category": "装饰画与墙艺", "region": "china", "query": "画框", "source": "小红书"}, {"id": "694b9a8d00000000190261f6", "xsec_token": "ABrkD0KC4Qq0YPs5K0DwHTx85PV8s4iTGPO5uFehv43bU=", "title": "🎄第二弹小黄人装饰画排版来喽！", "type": "normal", "user": "长犄角的璐🦌", "likes": "305", "collections": "202", "comments": "29", "cover": "http://sns-webpic-qc.xhscdn.com/202603041500/8a64ba05422af3dfe8f3ae3b28315366/notes_pre_post/1040g3k831qfga9mvnu7g4a0pdddtbtddc28mvlg!nc_n_webp_prv_1", "category": "装饰画与墙艺", "region": "china", "query": "画框", "source": "小红书"}, {"title": "Wall Art Trends for 2025 and How to Style Them", "url": "https://sackstedersinteriors.com/blog/wall-art-trends-for-2025-and-how-to-style-them/", "snippet": "[Skip to content]<web_link> - [Shop]<web_link> - [Uttermost]<web_link> - [Mirrors]<web_link> - [Arched Mirrors]<web_link> - [Bathroom Mirrors]<web_link> - [Bronze Mirrors]<web_link> - [Floor Mirrors]<web_link> - [Gold Mirrors]<web_link> - [Black Mirrors]<web_link> - [Large Mirrors]<web_link> - [Bras", "category": "装饰画与墙艺", "region": "china", "query": "装饰画 趋势 风格 2025 相框 墙艺", "source": "Exa"}, {"title": "墙挂画2025最新款艺术", "url": "https://www.iesdouyin.com/search/%E5%A2%99%E6%8C%82%E7%94%BB2025%E6%9C%80%E6%96%B0%E6%AC%BE%E8%89%BA%E6%9C%AF", "snippet": "加载中", "category": "装饰画与墙艺", "region": "china", "query": "装饰画 趋势 风格 2025 相框 墙艺", "source": "Exa"}, {"title": "2025年装饰挂画怎么选？2800字纯干货攻略！宝藏店铺推荐！(双十一)", "url": "https://zhuanlan.zhihu.com/p/678197687", "snippet": "2025年装饰挂画怎么选？2800字纯干货攻略！宝藏店铺推荐！(双十一) - 知乎 屋中有画，等于悬挂了一个思想。——乔舒亚·雷诺兹 装饰挂画是一个空间内引导视线，渲染气氛，填充空间的重要物品。当人进入一个空间内的时候，挂画将人的视线聚焦。这里画本身的形状、大小、色彩和内容，都会对接下来人阅读整个空间产生影响。所以挂画的位置，内容，大小，包括画框的材质的选用都要恰如其分的安排，才会和室内空间局发生化学反应，更好的渲染空间氛围。 在不改变空间基本格局、色彩等前提下，用艺术挂画来改变空间的层次与气质，是最聪明的方法。 选画的时候可以根据家居装饰的风格来确定画品，主要考虑画的风格种类，画框的材质、造", "category": "装饰画与墙艺", "region": "china", "query": "装饰画 趋势 风格 2025 相框 墙艺", "source": "Exa"}, {"title": "30天稳拿540单：从小工具开发到图文带货，这套自动化获客逻辑建议电商老板收藏很多人觉得小红书现在太卷，虚拟产品早就不香 - 掘金", "url": "https://juejin.cn/post/7604507125858336795", "snippet": "30天稳拿540单：从小工具开发到图文带货，这套自动化获客逻辑建议电商老板收藏很多人觉得小红书现在太卷，虚拟产品早就不香 - 掘金 ![稀土掘金]<image_link> ![稀土掘金]<image_link> # 30天稳拿540单：从小工具开发到图文带货，这套自动化获客逻辑建议电商老板收藏 [ iThinkAi智能体 ]<web_link> 2026-02-09 19 阅读5分钟 很多人觉得小红书现在太卷，虚拟产品早就不香了。其实不是赛道不行，是你的产品太“重”，或者你的交付方式太笨。 传统的资料包、指令集已经成了红海，但真正解决细分需求的“极简工具”还是一片空白。 老手们都知道，现在的流", "category": "社交媒体动态", "region": "china", "query": "小红书 抖音 电商 AI 内容营销 案例", "source": "Exa"}, {"title": "2026品牌新红利：小红书内容资产如何在抖音撬动千万销售？ - 楠开口· | 小宇宙 - 听播客，上小宇宙", "url": "https://www.xiaoyuzhoufm.com/episode/694d06ee63a654fa60ca6432", "snippet": "2026品牌新红利：小红书内容资产如何在抖音撬动千万销售？ - 楠开口·| 小宇宙- 听播客，上小宇宙![2026品牌新红利：小红书内容资产如何在抖音撬动千万销售？]<image_link> # 2026品牌新红利：小红书内容资产如何在抖音撬动千万销售？ [楠开口·]<web_link>[![楠开口·]<image_link>]<web_link> 134分钟·17天前 ![播放数]<image_link>18 ·![评论数]<image_link>0 作为品牌负责人，在规划2026年的新增量时，你是否曾困惑：团队沉淀的爆款图文、验证过的内容模板，除了在小红书收割流量，还能创造更多价值吗？ 如", "category": "社交媒体动态", "region": "china", "query": "小红书 抖音 电商 AI 内容营销 案例", "source": "Exa"}],
+        exa: [{"title": "Digital Infrastructure Priorities for Online Retailers in 2026: Security, Speed, Trust, and AI-Driven Experiences - The Gardner News", "url": "https://www.thegardnernews.com/press-release/story/39079/digital-infrastructure-priorities-for-online-retailers-in-2026-security-speed-trust-and-ai-driven-experiences/", "snippet": "The Gardner News: Local News, Politics & Sports in Gardner, MASkip to main content - [Contributor Content]<web_link> - [For Subscribers]<web_link> - [eNewspaper]<web_link> - [Comics]<web_link> - [Crosswords]<web_link> - [Obituaries]<web_link> - [Business]<web_link> - [Opinion]<web_link> - [Lifestyle", "category": "AI 电商趋势", "region": "international", "query": "AI e-commerce trends 2025 2026", "source": "Exa"}, {"title": "CommerceIQ Unveils Suite of Retail AI Agents for Brands to Outperform the Competition - Columbia Daily Tribune", "url": "https://www.columbiatribune.com/press-release/story/61495/commerceiq-unveils-suite-of-retail-ai-agents-for-brands-to-outperform-the-competition/", "snippet": "Columbia Daily Tribune: Local News, Politics & Sports in Columbia, MOSkip to main content - [Contributor Content]<web_link> - [Shopping]<web_link> - [For Subscribers]<web_link> - [eNewspaper]<web_link> - [Comics]<web_link> - [Crosswords]<web_link> - [Obituaries]<web_link> - [Business]<web_link> - [O", "category": "AI 电商趋势", "region": "international", "query": "AI e-commerce trends 2025 2026", "source": "Exa"}, {"title": "The AI-Driven Spontaneous Shift: Consumer E-Commerce Trends for 2026 | Digital Commerce 360", "url": "https://www.digitalcommerce360.com/industry-resource/the-ai-driven-spontaneous-shift-consumer-e-commerce-trends-for-2026/", "snippet": "The AI-Driven Spontaneous Shift: Consumer E-Commerce Trends for 2026 | Digital Commerce 360 [Search]<web_link> [Industry Resources]<web_link> # The AI-Driven Spontaneous Shift: Consumer E-Commerce Trends for 2026 E-commerce shoppers in 2026 are faster, more spontaneous, and increasingly conversation", "category": "AI 电商趋势", "region": "international", "query": "AI e-commerce trends 2025 2026", "source": "Exa"}, {"title": "E-Commerce AI Automations: From Browsing to Buying | MindStudio", "url": "https://www.mindstudio.ai/blog/ecommerce-ai-automations-browsing-to-buying/", "snippet": "E-Commerce AI Automations: From Browsing to Buying | MindStudio [ Skip to main content ]<web_link> [ ![MindStudio]<image_link> ]<web_link> [Pricing]<web_link> Learn [University]<web_link> [Bootcamps]<web_link> [Documentation]<web_link> [Blog]<web_link> [About]<web_link> [Log in]<web_link> [Get Start", "category": "AI 电商趋势", "region": "international", "query": "artificial intelligence online shopping business automation", "source": "Exa"}, {"title": "Ecommerce AI Automation in 2026 (Drive Efficiency and Growth) - BigCommerce", "url": "https://www.bigcommerce.com/blog/ecommerce-ai-automation/", "snippet": "Ecommerce AI Automation in 2025 (Drive Efficiency and Growth) * Why BigCommerce? * [![icon]<image_link> Engage Hosted low/no code, headless, or both. ]<web_link> * [![icon]<image_link> Attract Improved conversion, ROAS, and revenue. ]<web_link> * [![icon]<image_link> Convert Payment freedom, lower f", "category": "AI 电商趋势", "region": "international", "query": "artificial intelligence online shopping business automation", "source": "Exa"}, {"title": "IntelliConvert: AI Shopping Agent for eCommerce Stores - intelliconvert", "url": "https://www.intelliconvert.ai/", "snippet": "Home page v1 - intelliconvert **Menu**Close [![intelliconvert]<image_link>]<web_link> [intelliconvert]<web_link> # Unlock Higher Conversions with Our AI Shopping Agent The AI-powered shopping assistant that turns every visitor interaction into revenue, just like Amazon&#039;s Rufus, but for YOUR sto", "category": "AI 电商趋势", "region": "international", "query": "artificial intelligence online shopping business automation", "source": "Exa"}, {"title": "Top Wall Art Trends for 2025: What's In, What's Out, and What's Next", "url": "https://www.fab-art.co/blogs/news/top-wall-art-trends-for-2025-whats-in-whats-out-and-whats-next", "snippet": "identify - flush queued events ============================================================ -- Top Wall Art Trends for 2025: What's In, What's Out, and What's Next – Fab Free UK shipping over £69.99 · 3k+ 5★ reviews Trends aren't rules to follow blindly. They're signals about where our collective ta", "category": "装饰画与墙艺", "region": "international", "query": "decorative painting trends 2025 wall art interior design", "source": "Exa"}, {"title": "10 Hottest Wall Art & Home Decor Trends of 2025 | Arts Fiesta", "url": "https://artsfiesta.com/10-hottest-wall-art-home-decor-trends-in-2025-you-need-to-know-about/", "snippet": "10 Hottest Wall Art & Home Decor Trends of 2025 | Arts Fiesta # 10 Hottest Wall Art & Home Decor Trends in 2025 You Need to Know About If you’re ready to breathe new life into your living space in 2025, there’s no better way to do it than with wall art and decor that reflect your personal style and ", "category": "装饰画与墙艺", "region": "international", "query": "decorative painting trends 2025 wall art interior design", "source": "Exa"}, {"title": "Top 10 Wall Art Trends for 2025 to Transform Your Space", "url": "https://www.craftshuddle.com/10-top-wall-art-trends-for-2025-to-transform-your-space/", "snippet": "Top 10 Wall Art Trends for 2025 to Transform Your Space [Skip to content]<web_link> *\"From Hands to Heart—Let’s Craft Something Beautiful.\"* []<web_link> Search []<web_link> Toggle Menu [Wall Art]<web_link> # Top 10 Wall Art Trends for 2025 to Transform Your Space ## **Why[Wall Art]<web_link>Matters", "category": "装饰画与墙艺", "region": "international", "query": "decorative painting trends 2025 wall art interior design", "source": "Exa"}, {"title": "专题：2025电商营销与AI应用发展趋势报告|附260+份 ...", "url": "https://blog.csdn.net/qq_19600291/article/details/149118353", "snippet": "专题：2025电商营销与AI应用发展趋势报告|附260+份报告PDF、原数据表汇总下载-CSDN博客 # 专题：2025电商营销与AI应用发展趋势报告|附260+份报告PDF、原数据表汇总下载 ![]<image_link> [拓端研究室]<web_link>![]<image_link>于2025-07-04 15:58:49发布 ![]<image_link>阅读量1k![]<image_link>![]<image_link>收藏30 ![]<image_link>![]<image_link>点赞数 23 CC 4.0 BY-SA版权 文章标签：[pdf]<web_link> 版权声明", "category": "AI 电商趋势", "region": "china", "query": "AI电商 人工智能 电商应用 案例 2025", "source": "Exa"}, {"title": "Fastdata极数全球电商行业AI应用研究报告2025", "url": "https://www.scribd.com/document/897552467/Fastdata%E6%9E%81%E6%95%B0-%E5%85%A8%E7%90%83%E7%94%B5%E5%95%86%E8%A1%8C%E4%B8%9AAI%E5%BA%94%E7%94%A8%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A2025", "snippet": "[Open navigation menu]<web_link> Close suggestionsSearchSearch enChange Language [Upload]<web_link> Sign in Sign in 0 ratings0% found this document useful (0 votes) 540 views59 pages # Fastdata极数 全球电商行业AI应用研究报告2025 本报告探讨了人工智能在全球电商行业的应用及其革命性影响，强调个性化购物体验、供应链优化和可持续发展。预计到2024年，全球B2C电商销售额将达到6.1万亿美元，中国和美国", "category": "AI 电商趋势", "region": "china", "query": "AI电商 人工智能 电商应用 案例 2025", "source": "Exa"}, {"title": "2025年AI电商新趋势：天星链数据如何用技术改变抖店运营", "url": "https://www.163.com/dy/article/JV59I9B605562KY9.html", "snippet": "2025年AI电商新趋势：天星链数据如何用技术改变抖店运营|ai电商|电商平台_网易订阅 [网易首页]<web_link> [应用]<web_link> - [网易云课堂]<web_link> - [邮箱大师]<web_link> - [网易严选]<web_link> - [网易红彩]<web_link> - [网易公开课]<web_link> - [网易新闻]<web_link> 快速导航 ### 新闻 - [王三三]<web_link> - [国际]<web_link> - [国内]<web_link> ### 体育 - [意甲]<web_link> - [西甲]<web_link> - ", "category": "AI 电商趋势", "region": "china", "query": "AI电商 人工智能 电商应用 案例 2025", "source": "Exa"}, {"title": "Wall Art Trends for 2025 and How to Style Them", "url": "https://sackstedersinteriors.com/blog/wall-art-trends-for-2025-and-how-to-style-them/", "snippet": "[Skip to content]<web_link> - [Shop]<web_link> - [Uttermost]<web_link> - [Mirrors]<web_link> - [Arched Mirrors]<web_link> - [Bathroom Mirrors]<web_link> - [Bronze Mirrors]<web_link> - [Floor Mirrors]<web_link> - [Gold Mirrors]<web_link> - [Black Mirrors]<web_link> - [Large Mirrors]<web_link> - [Bras", "category": "装饰画与墙艺", "region": "china", "query": "装饰画 趋势 风格 2025 相框 墙艺", "source": "Exa"}, {"title": "墙挂画2025最新款艺术", "url": "https://www.iesdouyin.com/search/%E5%A2%99%E6%8C%82%E7%94%BB2025%E6%9C%80%E6%96%B0%E6%AC%BE%E8%89%BA%E6%9C%AF", "snippet": "加载中", "category": "装饰画与墙艺", "region": "china", "query": "装饰画 趋势 风格 2025 相框 墙艺", "source": "Exa"}, {"title": "2025年装饰挂画怎么选？2800字纯干货攻略！宝藏店铺推荐！(双十一)", "url": "https://zhuanlan.zhihu.com/p/678197687", "snippet": "2025年装饰挂画怎么选？2800字纯干货攻略！宝藏店铺推荐！(双十一) - 知乎 屋中有画，等于悬挂了一个思想。——乔舒亚·雷诺兹 装饰挂画是一个空间内引导视线，渲染气氛，填充空间的重要物品。当人进入一个空间内的时候，挂画将人的视线聚焦。这里画本身的形状、大小、色彩和内容，都会对接下来人阅读整个空间产生影响。所以挂画的位置，内容，大小，包括画框的材质的选用都要恰如其分的安排，才会和室内空间局发生化学反应，更好的渲染空间氛围。 在不改变空间基本格局、色彩等前提下，用艺术挂画来改变空间的层次与气质，是最聪明的方法。 选画的时候可以根据家居装饰的风格来确定画品，主要考虑画的风格种类，画框的材质、造", "category": "装饰画与墙艺", "region": "china", "query": "装饰画 趋势 风格 2025 相框 墙艺", "source": "Exa"}, {"title": "30天稳拿540单：从小工具开发到图文带货，这套自动化获客逻辑建议电商老板收藏很多人觉得小红书现在太卷，虚拟产品早就不香 - 掘金", "url": "https://juejin.cn/post/7604507125858336795", "snippet": "30天稳拿540单：从小工具开发到图文带货，这套自动化获客逻辑建议电商老板收藏很多人觉得小红书现在太卷，虚拟产品早就不香 - 掘金 ![稀土掘金]<image_link> ![稀土掘金]<image_link> # 30天稳拿540单：从小工具开发到图文带货，这套自动化获客逻辑建议电商老板收藏 [ iThinkAi智能体 ]<web_link> 2026-02-09 19 阅读5分钟 很多人觉得小红书现在太卷，虚拟产品早就不香了。其实不是赛道不行，是你的产品太“重”，或者你的交付方式太笨。 传统的资料包、指令集已经成了红海，但真正解决细分需求的“极简工具”还是一片空白。 老手们都知道，现在的流", "category": "社交媒体动态", "region": "china", "query": "小红书 抖音 电商 AI 内容营销 案例", "source": "Exa"}, {"title": "2026品牌新红利：小红书内容资产如何在抖音撬动千万销售？ - 楠开口· | 小宇宙 - 听播客，上小宇宙", "url": "https://www.xiaoyuzhoufm.com/episode/694d06ee63a654fa60ca6432", "snippet": "2026品牌新红利：小红书内容资产如何在抖音撬动千万销售？ - 楠开口·| 小宇宙- 听播客，上小宇宙![2026品牌新红利：小红书内容资产如何在抖音撬动千万销售？]<image_link> # 2026品牌新红利：小红书内容资产如何在抖音撬动千万销售？ [楠开口·]<web_link>[![楠开口·]<image_link>]<web_link> 134分钟·17天前 ![播放数]<image_link>18 ·![评论数]<image_link>0 作为品牌负责人，在规划2026年的新增量时，你是否曾困惑：团队沉淀的爆款图文、验证过的内容模板，除了在小红书收割流量，还能创造更多价值吗？ 如", "category": "社交媒体动态", "region": "china", "query": "小红书 抖音 电商 AI 内容营销 案例", "source": "Exa"}, {"title": "Here are the 55 US AI startups that raised $100M or more in 2025 | TechCrunch", "url": "https://techcrunch.com/2026/01/19/here-are-the-49-us-ai-startups-that-have-raised-100m-or-more-in-2025/", "snippet": "Here are the 55 US AI startups that raised $100M or more in 2025 | TechCrunch –:–:–:– Founder Summit 2026 in Boston: Don’t miss ticket savings of up to $300. [Register Now.]<web_link> Save up to $680 on your Disrupt 2026 pass. Ends 11:59 p.m. PT tonight. [REGISTER NOW]<web_link>. Image Credits:beast", "category": "商业与投资", "region": "international", "query": "e-commerce investment funding AI startup 2025", "source": "Exa"}, {"title": "[Report] AI startups captured majority of global funding in 2025", "url": "https://startup-weekly.com/Report-AI-startups-captured-majority-of-global-funding-in-2025/", "snippet": "[Report] AI startups captured majority of global funding in 2025 - Startup Weekly # [Report] AI startups captured majority of global funding in 2025 AI cemented its dominance over the global venture capital market in 2025, claiming more than half of all funding for the first time on record. What had", "category": "商业与投资", "region": "international", "query": "e-commerce investment funding AI startup 2025", "source": "Exa"}, {"title": "AI Startups Raise Record $150B in 2025, Redefining Venture Capital - eWeek", "url": "https://www.eweek.com/news/ai-startups-raise-record-150b-in-2025/", "snippet": "AI Startups Raise Record $150B in 2025, Redefining Venture Capital | eWEEK * Latest News * Resources * Artificial Intelligence * Video * Big Data &amp; Analytics * Cloud * Networking * [Cybersecurity]<web_link> * [Applications]<web_link> * [IT Management]<web_link> * [Storage]<web_link> * [Mobile]<w", "category": "商业与投资", "region": "international", "query": "e-commerce investment funding AI startup 2025", "source": "Exa"}, {"title": "跨境电商2025盘点：白牌退潮，品牌狂飙", "url": "https://m.36kr.com/p/3661387033240450", "snippet": "跨境电商2025盘点：白牌退潮，品牌狂飙-36氪 [账号设置]<web_link> [我的关注]<web_link> [我的收藏]<web_link> [申请的报道]<web_link>退出登录 登录 搜索 [36氪Auto]<web_link> [数字时氪]<web_link> [未来消费]<web_link> [智能涌现]<web_link> [未来城市]<web_link> [启动Power on]<web_link> [36氪出海]<web_link> [36氪研究院]<web_link> [潮生TIDE]<web_link> [36氪企服点评]<web_link> [36氪财经]<w", "category": "商业与投资", "region": "china", "query": "Temu Alibaba Shein 跨境电商 投资 2025", "source": "Exa"}, {"title": "2025“出海四小龙” SHEIN 速卖通Aliexpress TEMU TikTok Shop大事记", "url": "https://m.amz123.com/t/rlHzytxr", "snippet": "立即登录 首页跨境头条 - [跨境百科]<web_link> - [跨境报告]<web_link> - [跨境早报]<web_link> - [跨境快讯]<web_link> - [每日一店]<web_link> 全球开店自营服务 - [TikTok广告开户]<web_link> - [Facebook广告开户]<web_link> - [Google广告开户]<web_link> - [Twitter广告开户]<web_link> - [亚马逊卖家成长服务]<web_link> 查测评 - [骗子曝光]<web_link> - [跟卖曝光]<web_link> 找服务找物流找海外仓找活动 -", "category": "商业与投资", "region": "china", "query": "Temu Alibaba Shein 跨境电商 投资 2025", "source": "Exa"}, {"title": "2025年全球电商APP月活榜：Shopee TEMU SHEIN ...", "url": "https://www.100ec.cn/detail--6655876.html", "snippet": "2025年全球电商APP月活榜：Shopee TEMU SHEIN AliExpress等列前十 网经社 电子商务研究中心 电商门户 互联网+智库 -- if(window.location.protocol.indexOf('https') != -1) { window.location.href = window.location.href.replace('https', 'http') } -- -- - 更多 -- 日历 -- - [播报]<web_link> - [导航]<web_link> - [专题]<web_link> - 移动端 -- 专业台 -- 战疫 -- 分站 --", "category": "商业与投资", "region": "china", "query": "Temu Alibaba Shein 跨境电商 投资 2025", "source": "Exa"}]
+      };
+    </script>
+    
+</head>
+<body class="bg-xhs-bg">
+  <!-- Top Navigation -->
+  <header class="bg-white border-b border-gray-100 sticky top-0 z-50">
+    <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <a href="/" class="flex items-center gap-2">
+          <div class="w-8 h-8 rounded-xl bg-gradient-to-br from-xhs-red to-xhs-pink flex items-center justify-center text-white font-bold text-sm">🔥</div>
+          <div>
+            <h1 class="text-base font-bold text-xhs-text">涅磐纪日报</h1>
+            <p class="text-xs text-xhs-subtext">小红书数据特辑</p>
+          </div>
+        </a>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="px-3 py-1 bg-red-50 text-xhs-red text-xs rounded-full border border-red-100">小红书数据源</span>
+        <button onclick="toggleTheme()" class="p-2 rounded-lg hover:bg-gray-50">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-4 py-6">
+    <!-- Header Section -->
+    <section class="mb-6">
+      <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+        <div class="flex items-center justify-between mb-4">
+          <div>
+            <h2 class="text-xs text-xhs-subtext uppercase tracking-wide mb-1">日报编号</h2>
+            <p class="text-2xl font-bold text-xhs-red" id="report-id">--</p>
+          </div>
+          <div class="text-right">
+            <p class="text-xs text-xhs-subtext mb-1">更新时间</p>
+            <p class="text-sm font-medium" id="report-time">--</p>
+          </div>
+        </div>
+        <div class="grid grid-cols-3 gap-4">
+          <div class="stat-card">
+            <p class="text-xs opacity-80 mb-1">总笔记数</p>
+            <p class="text-3xl font-bold" id="total-notes">0</p>
+          </div>
+          <div class="bg-white border-2 border-red-100 rounded-xl p-3">
+            <p class="text-xs text-xhs-subtext mb-1">AI电商</p>
+            <p class="text-2xl font-bold text-xhs-red" id="ai-commerce">0</p>
+          </div>
+          <div class="bg-white border-2 border-pink-100 rounded-xl p-3">
+            <p class="text-xs text-xhs-subtext mb-1">装饰画</p>
+            <p class="text-2xl font-bold text-pink-500" id="decorative-art">0</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hot Topics Section -->
+    <section class="mb-6">
+      <div class="flex items-center gap-2 mb-4">
+        <span class="w-1 h-6 bg-xhs-red rounded-full"></span>
+        <h2 class="text-lg font-bold text-xhs-text">🔥 热门话题</h2>
+      </div>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-3" id="hot-topics">
+        <!-- Dynamic topics will be inserted here -->
+      </div>
+    </section>
+
+    <!-- XHS Notes Grid -->
+    <section class="mb-6">
+      <div class="flex items-center justify-between mb-4">
+        <div class="flex items-center gap-2">
+          <span class="w-1 h-6 bg-xhs-red rounded-full"></span>
+          <h2 class="text-lg font-bold text-xhs-text">📕 小红书笔记</h2>
+          <span class="px-2 py-0.5 bg-red-50 text-xhs-red text-xs rounded" id="xhs-count">0 条</span>
+        </div>
+        <div class="flex gap-2">
+          <button onclick="filterCategory('all')" class="px-3 py-1 bg-xhs-red text-white text-xs rounded-full">全部</button>
+          <button onclick="filterCategory('AI电商')" class="px-3 py-1 bg-gray-100 text-gray-600 text-xs rounded-full hover:bg-red-50">AI电商</button>
+          <button onclick="filterCategory('装饰画')" class="px-3 py-1 bg-gray-100 text-gray-600 text-xs rounded-full hover:bg-red-50">装饰画</button>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4" id="notes-grid">
+        <!-- Notes will be dynamically inserted -->
+      </div>
+    </section>
+
+    <!-- Exa News Section (for comparison) -->
+    <section class="mb-6">
+      <div class="flex items-center gap-2 mb-4">
+        <span class="w-1 h-6 bg-blue-500 rounded-full"></span>
+        <h2 class="text-lg font-bold text-xhs-text">🌐 全网趋势</h2>
+        <span class="px-2 py-0.5 bg-blue-50 text-blue-600 text-xs rounded" id="exa-count">0 条</span>
+      </div>
+      <div class="space-y-3" id="exa-news">
+        <!-- Exa news will be inserted -->
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-gray-200 pt-6 pb-8 mt-8 text-center text-xs text-gray-500">
+      <p>© 2025 涅磐纪 AI电商日报 · 小红书数据整合</p>
+      <p class="mt-1">数据来源：Exa 全网搜索 · 小红书公开笔记</p>
+      <p class="mt-1">生成时间：<span id="generated-time">--</span></p>
+    </footer>
+  </main>
+
+  <script>
+    // Data will be set by Python injection script
+    // Keep default empty values for initialization
+    if (typeof reportData === 'undefined') {
+      reportData = {
+        meta: {
+          totalNotes: 0,
+          aiCommerce: 0,
+          decorativeArt: 0,
+          exaCount: 0,
+          generatedAt: ''
+        },
+        xiaohongshu: [],
+        exa: []
+      };
+    }
+
+    // Theme toggle
+    function toggleTheme() {
+      document.body.classList.toggle('dark');
+      localStorage.setItem('theme', document.body.classList.contains('dark') ? 'dark' : 'light');
+    }
+
+    // Category filter
+    function filterCategory(cat) {
+      renderNotes();
+    }
+
+    // Format numbers with k/M
+    function formatNumber(num) {
+      if (num >= 10000) return (num/10000).toFixed(1) + 'w';
+      if (num >= 1000) return (num/1000).toFixed(1) + 'k';
+      return num.toString();
+    }
+
+    // Render XHS notes
+    function renderNotes() {
+      const grid = document.getElementById('notes-grid');
+      const filter = document.querySelector('button.text-white')?.textContent || '全部';
+      
+      let notes = reportData.xiaohongshu;
+      if (filter !== '全部') {
+        // Simple category detection from title/content
+        if (filter === 'AI电商') {
+          notes = notes.filter(n => 
+            n.title.includes('AI') && (n.title.includes('电商') || n.title.includes('运营') || n.title.includes('淘宝'))
+          );
+        } else if (filter === '装饰画') {
+          notes = notes.filter(n =>
+            n.title.includes('装饰画') || n.title.includes('画框') || n.title.includes('挂画')
+          );
+        }
+      }
+
+      grid.innerHTML = notes.map(note => `
+        <div class="xhs-card overflow-hidden cursor-pointer">
+          <div class="note-cover bg-gradient-to-br from-red-100 to-pink-100 flex items-center justify-center">
+            <svg class="w-16 h-16 text-red-200" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+            </svg>
+          </div>
+          <div class="p-4">
+            <h3 class="font-medium text-xhs-text mb-2 line-clamp-2 leading-snug">${note.title}</h3>
+            <div class="flex items-center justify-between text-xs text-xhs-subtext mb-3">
+              <span>@${note.user}</span>
+              <div class="flex items-center gap-3">
+                <span class="flex items-center gap-1">👍${formatNumber(parseInt(note.likes) || 0)}</span>
+                <span class="flex items-center gap-1">💬${formatNumber(parseInt(note.comments) || 0)}</span>
+              </div>
+            </div>
+            <div class="flex gap-2">
+              <span class="xhs-tag">小红书</span>
+              ${note.category === 'AI 电商趋势' ? '<span class="xhs-tag">AI电商</span>' : ''}
+              ${note.category === '装饰画与墙艺' ? '<span class="xhs-tag">装饰画</span>' : ''}
+            </div>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    // Render Exa news (compact)
+    function renderExaNews() {
+      const container = document.getElementById('exa-news');
+      const news = reportData.exa.slice(0, 5);
+      
+      container.innerHTML = news.map(item => `
+        <div class="bg-white rounded-xl p-4 border border-gray-100">
+          <h4 class="font-medium text-xhs-text mb-2 line-clamp-2">
+            <a href="${item.url}" target="_blank" class="hover:text-xhs-red transition-colors">${item.title}</a>
+          </h4>
+          <p class="text-xs text-xhs-subtext line-clamp-2 mb-2">${item.snippet}</p>
+          <div class="flex items-center justify-between text-xs">
+            <span class="text-xhs-subtext">${item.source || 'Exa'}</span>
+            <a href="${item.url}" target="_blank" class="text-xhs-red">阅读原文 →</a>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    // Render hot topics
+    function renderHotTopics() {
+      const container = document.getElementById('hot-topics');
+      const categories = {};
+      
+      reportData.xiaohongshu.forEach(note => {
+        const cat = note.category || '其他';
+        categories[cat] = (categories[cat] || 0) + 1;
+      });
+      
+      const sorted = Object.entries(categories).sort((a,b) => b[1] - a[1]).slice(0, 4);
+      
+      container.innerHTML = sorted.map(([cat, count]) => `
+        <div class="bg-white rounded-xl p-4 border border-gray-100 text-center">
+          <p class="text-2xl font-bold text-xhs-red mb-1">${count}</p>
+          <p class="text-xs text-xhs-subtext">${cat}</p>
+        </div>
+      `).join('');
+    }
+
+    // Initialize
+    function init() {
+      // 从 <script id="report-data"> 加载数据（可选，兼容旧版）
+      const dataScript = document.getElementById('report-data');
+      if (dataScript) {
+        try {
+          const data = JSON.parse(dataScript.textContent);
+          Object.assign(reportData, data);
+        } catch (e) {
+          console.warn('解析 report-data 失败:', e);
+        }
+      }
+      
+      // 确保有数据再渲染
+      if (!reportData.xiaohongshu || reportData.xiaohongshu.length === 0) {
+        console.warn('reportData 为空，跳过渲染');
+        return;
+      }
+      
+      // Update meta
+      document.getElementById('total-notes').textContent = reportData.meta.totalNotes;
+      document.getElementById('ai-commerce').textContent = reportData.meta.aiCommerce;
+      document.getElementById('decorative-art').textContent = reportData.meta.decorativeArt;
+      document.getElementById('report-id').textContent = reportData.meta.reportId || '--';
+      document.getElementById('report-time').textContent = reportData.meta.generatedAt || '--';
+      document.getElementById('generated-time').textContent = reportData.meta.generatedAt || '--';
+      document.getElementById('xhs-count').textContent = reportData.meta.totalNotes + ' 条';
+      document.getElementById('exa-count').textContent = reportData.meta.exaCount + ' 条';
+      
+      // Render sections
+      renderHotTopics();
+      renderNotes();
+      renderExaNews();
+    }
+
+    document.addEventListener('DOMContentLoaded', init);
+  </script>
+</body>
+</html>
